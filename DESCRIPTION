@@ -1,0 +1,28 @@
+Package: StatsTools
+Type: Package
+Title: "A Unified Ecosystem for Statistical Analysis
+Version: 3.0.0
+Author: Pedro Henrique Theotonio de Mesquita Pacheco
+Maintainer: Pedro Henrique Theotonio de Mesquita Pacheco <pedrohmp36@gmail.com>
+Description: StatsTools is an R package that integrates a suite of statistical tools
+   for comprehensive and efficient analysis. It is designed to provide both convenience
+   and precision, allowing users to perform their statistical analyses seamlessly with
+   less effort, all within a unified environment optimized for high-quality reporting.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Imports: 
+    cli,
+    crayon,
+    rstudioapi,
+    StatsConsort (>= 1.0.0),
+    StatsSample (>= 1.0.0),
+    StatsSummary (>= 1.0.0),
+    StatsTLF (>= 1.0.0),
+    utils
+Remotes: 
+    StatsTools/StatsTLF,
+    StatsTools/StatsConsort,
+    StatsTools/StatsSummary,
+    StatsTools/StatsSample
+RoxygenNote: 7.3.2
